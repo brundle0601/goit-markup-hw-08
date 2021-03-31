@@ -1,0 +1,91 @@
+.features {
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 15px;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+    text-align: left;
+    }
+}
+
+.feature_description {
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: left;
+}
+
+.photobar_container {
+    display: none;
+    position: relative;
+    /*width: 1200px;*/
+    height: auto;
+    margin-top: 65px;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+}
+
+
+
+.photobar_description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 60px;
+    margin-bottom: 36px;
+}
+
+
+.photobar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding-left: 0px;
+}
+
+.photobar__item {
+    position: relative;
+}
+
+
+.photobar__text {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+
+
+.photobar__box {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0px;
+    left: 0px;
+}

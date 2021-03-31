@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto',sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+}
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.features_list,
+.stuff-section,
+.navigation_list,
+.adress_list,
+.portfolio_list_item,
+.photobar,
+.portfolio_list,
+.footer_social_list,
+.social_list,
+.social_list_in_footer,
+.header_contacts,
+.clients_list,
+.mobile_menu_list,
+.mobile_menu_list_2,
+.mobile_menu_list_3 {
+    list-style-type:none
+}
+

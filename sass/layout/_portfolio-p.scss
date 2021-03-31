@@ -1,0 +1,148 @@
+.project_mane {
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    
+}
+
+.project_description {
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+
+
+
+
+
+.button_container {
+    width: 590px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.portfolio_modal_button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    color: #212121;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio_modal_button:hover,
+.portfolio_modal_button:focus {
+    background-color: #2196F3;
+    color: blanchedalmond;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+}
+
+.portfolio_button_section {
+    margin-top: 95px;
+}
+
+.portfolio_button_list {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    @media screen and (min-width: 1200px) {
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+
+.portfolio_container {
+    margin-top: 50px;
+}
+
+.portfolio_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-bottom: 94px;
+}
+
+.portfolio_list_project_item {
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.portfolio_description {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    border-top: none;
+}
+
+
+
+.portfolio__text {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 10px;
+    
+}
+
+
+
+
+
+.portfolio__text-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 294px;
+    left: 0px;
+    bottom: 130px;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateX(-100%);
+    transition: .5s;
+}
+
+
+
+
+.portfolio_list_project_item:hover .portfolio__text-box {
+    transform: translateX(0%);
+}
+
+

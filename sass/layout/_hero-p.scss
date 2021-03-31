@@ -1,0 +1,92 @@
+.hero {
+    background-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2F303A;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../img/mobile/head_mob1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+
+
+    @media screen and (min-width: 768px) {
+        background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../img/tablet/head_tablet_1x.jpg);
+
+}
+
+
+    @media screen and (min-width: 1200px) {
+        height: 600px;
+        background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../img/desktop/head_desktop_1x.jpg);
+
+    }
+
+}
+
+
+
+.title {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 122px 0px;
+    margin-bottom: 22px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+        line-height: 60px;
+        padding-top: 205px;
+    }
+
+}
+
+    
+/*.bottom_position {
+    margin: 0 auto;
+
+
+    @media screen and (min-width: 1200px) {
+        
+    }
+}
+*/
+
+.modal_button {
+    position: relative;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -244%);
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    cursor: pointer;
+
+    @media screen and (min-width: 1200px) {
+        position: relative;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, -220%);
+    }
+}
